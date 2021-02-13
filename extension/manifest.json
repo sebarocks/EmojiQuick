@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "EmojiQuick",
+    "version": "0.1",
+    "description": "Teclado Emoji rapido al portapapeles.",
+    "icons": {
+        "72": "icons/main.png"
+    },
+    "permissions": [
+        "clipboardWrite"
+    ],
+    "browser_action": {
+        "default_icon": "icons/main.png",
+        "default_title": "EmojiQuick",
+        "default_popup": "popup/popup.html"
+    }
+}
